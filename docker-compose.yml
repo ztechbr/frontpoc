@@ -6,7 +6,7 @@ services:
     image: n8n-clientes:latest
     container_name: n8n-clientes-web
     ports:
-      - "5080:8000"   # local dev
+      - "5080:9000"   # local dev
     environment:
       SECRET_KEY: "${SECRET_KEY:-change-in-prod}"
       DATABASE_URL: "${DATABASE_URL}"
